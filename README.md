@@ -65,3 +65,108 @@ This project answers key HR questions such as:
   Management, Co-workers, Working environment, Salary, Work tasks, Benefits, Career development
 
 ---
+
+![Salary Distribution](/img/Salary_distribution.png)
+
+## 🔬 Methodology & Analytical Approach
+
+This document explains the analytical methodology used in the *Employee Survey Analytics Project*.  
+It is designed for transparency, reproducibility, and recruiter review.
+
+### Data Collection
+
+- Internal employee survey (fictional)
+- Cross-sectional dataset
+- Anonymized responses
+
+### Measurement Scale
+
+All satisfaction variables use a **5-point Likert scale**:
+
+1. Highly Unsatisfied  
+2. Unsatisfied  
+3. Neutral  
+4. Satisfied  
+5. Highly Satisfied
+
+### Analytical Techniques
+
+#### 1. Descriptive
+
+- Mean
+- Median
+- Standard deviation
+- Minimum and maximum values
+- Percentage
+
+Used to understand central tendencies and variability in satisfaction scores.
+
+#### 2. Group
+
+Comparisons were conducted across:
+
+- Department
+- Age category
+- Salary category
+- Education level
+- Gender
+  
+- Comparison details
+  - **Education by Department:** Laboratory and Sales skew toward higher academic qualifications; Logistics is more practice-oriented.
+  - **Salary vs. Education:** Higher education correlates with higher salary brackets across the board.
+  - **Salary vs. Gender:** Men are over-represented in >€4,500 bracket despite smaller share of workforce; women concentrated in lower/mid bands.
+  - **Age distribution by Department:** Logistics has the largest share of 50+ employees; Laboratory and Sales are more balanced.
+
+This allowed identification of structural and demographic differences.
+
+#### 3. Cross-Tabulation
+
+- Salary vs Education
+- Salary vs Gender
+- Education vs Department
+- Age vs Department
+
+Used to detect patterns and potential inequities.
+
+#### 4. Visual Analytics
+
+- Bar charts
+- Distribution charts
+- Comparative plots
+
+Visuals were used to highlight gaps and trends clearly for stakeholders.
+
+---
+
+### Analytical Focus
+
+Rather than advanced predictive modeling, the analysis prioritized:
+
+- Interpretability
+- Actionability
+- Business relevance
+- HR decision support
+
+---
+
+### 😊 Satisfaction Metrics (1–5 scale)
+
+Overall means:
+
+- **Management:** 2.54 (median 2.0) — lowest area.
+- **Co-workers:** 3.72 (median 4.0) — highest area.
+- **Working environment:** 2.89.
+- **Salary:** 2.31 — widespread dissatisfaction.
+- **Work tasks:** 2.68.
+- **Company benefits:** 3.36.
+- **Career development:** 3.03.
+
+#### Differences by Group
+
+- **Department:** Sales has the highest working environment score (~4.04); Logistics the lowest (~2.05). Salary satisfaction is low everywhere (≈2.12–2.41).
+- **Age:** Younger staff rate co-workers highest but are least satisfied with salary; older staff (50+) find tasks more fulfilling but show lower career development scores.
+- **Salary Category:** Higher salary correlates with better environment/benefit/task satisfaction, but **management** satisfaction remains low across all bands.
+- **Gender:** Largest gap appears in **salary satisfaction** (female ≈2.55 vs. male ≈1.85); co-worker satisfaction is high for all. *(Note: “Other” group results are impacted by very small n).*
+
+---
+![Dender Age and department](/img/Satisfaction_2.png)
