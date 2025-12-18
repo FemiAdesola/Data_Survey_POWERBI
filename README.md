@@ -47,7 +47,8 @@ This project answers key HR questions such as:
 
 DATA_SURVEY_POWERBI/
 ├── dashboards/
-│   └── Data survey.pbix          # Power BI file
+│   ├── Data survey.pbix          # Power BI file
+│   └── DAX.md                    #  Few of DAX measures used in the Power BI dashboards
 ├── data/
 │   └── Sample_data.xlsx          # Source dataset(s)
 ├── img/                          # Figures used in README/report
