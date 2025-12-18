@@ -170,3 +170,93 @@ Overall means:
 
 ---
 ![Dender Age and department](/img/Satisfaction_2.png)
+
+## Data Description
+
+---
+
+### Variables Description
+
+![Gender age department](img/Gender_age_department_distr.png)
+
+#### Demographic Variables
+
+| Variable | Description |
+|--------|------------|
+| Gender | Male, Female, Other |
+| Age | Numerical age |
+| Age Category | 20–29, 30–39, 40–49, 50+ |
+| Education Level | Elementary, Second Level, Bachelor, Master, Doctor |
+| Department | Logistics, Laboratory, Sales |
+
+---
+
+#### Compensation Variables
+
+| Variable | Description |
+|--------|------------|
+| Salary | Monthly salary in euros (€) |
+| Salary Category | <2500, 2500–3499, 3500–4499, >4500 |
+
+---
+
+#### Satisfaction Variables (Likert Scale 1–5)
+
+| Variable | Description |
+|--------|------------|
+| Sat_Management | Satisfaction with management |
+| Sat_Coworkers | Satisfaction with co-workers |
+| Sat_Environment | Satisfaction with working environment |
+| Sat_Salary | Satisfaction with salary |
+| Sat_Tasks | Satisfaction with work tasks |
+| Sat_Benefits | Satisfaction with company benefits |
+| Sat_Career | Satisfaction with career development |
+
+---
+![Satisfaction](/img/Satisfaction_1.png)
+
+## 📊 Key Insights
+
+### What Works Well ✅
+
+- **Strong co-worker relationships** across all departments
+- **Company benefits** are positively perceived
+- Education aligns well with role complexity
+
+### Critical Risks ⚠️
+
+- **Salary dissatisfaction** is widespread across all groups
+- **Management satisfaction** is consistently low
+- **Logistics department** shows poor working environment scores
+
+### Strategic Patterns
+
+- Younger employees prioritize **career development**
+- Mid-career staff value **workload balance**
+- Senior employees seek **ergonomic support & stability**
+- Higher education strongly correlates with higher pay
+- Gender pay gaps emerge in higher salary bands
+
+---
+
+### 🏢 Department-Level Findings
+
+| Department | Key Observation |
+|----------|-----------------|
+| Logistics | Lowest management & environment satisfaction |
+| Laboratory | Strong career alignment & task satisfaction |
+| Sales | Best-rated work environment & salary perception |
+
+---
+
+## 🧭 Recommendations
+
+1. **Salary transparency & adjustments** — prioritize equity in lower-paid units (e.g., Logistics) and review mid-band disparities.
+2. **Leadership capability uplift** — targeted training, feedback loops, and manager accountability to address the lowest-scoring area.
+3. **Workplace improvements** — replicate Sales’ environment best practices in Logistics and other operational areas.
+4. **Age-tailored support** — career guidance for 20s, workload planning for 30s–40s, ergonomic flexibility for 50+.
+5. **Quarterly pulse surveys** — measure progress against baseline distributions and keep interventions data-driven.
+
+These actions support **employee engagement, retention, and organizational performance**.
+
+---
