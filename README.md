@@ -4,6 +4,8 @@
 ![Status](https://img.shields.io/badge/project-complete-brightgreen)
 ![Focus](https://img.shields.io/badge/focus-data--driven%20Analytics-blue)
 
+👉 [Download the PowerBI report](./dashboards/Data%20survey.pbix)
+
 ## 👋 Introduction
 
 This project demonstrates my ability to apply **data analytics to real-world HR challenges**.  
@@ -38,6 +40,29 @@ This project answers key HR questions such as:
 - Measure employee satisfaction across key organizational factors.
 - Identify disparities between demographic and departmental groups.
 - Deliver data-driven recommendations to improve engagement, equity, and retention
+
+## 📁 Repository Structure
+
+```bash
+
+DATA_SURVEY_POWERBI/
+├── dashboards/
+│   └── Data survey.pbix          # Power BI file
+├── data/
+│   └── Sample_data.xlsx          # Source dataset(s)
+├── img/                          # Figures used in README/report
+│   ├── Gender_age_department_distr.png
+│   ├── Salary_distribution.png
+│   ├── Satisfaction_1.png
+│   └── Satisfaction_2.png
+├── reports/
+│   ├── Data survey analysis.pdf  # Management report
+│   ├── Data survey analysis.docx # Editable report
+│   └── Data survey.pdf           # Alternate/short report
+│    
+├── README.md                     # Project overview, usage, and links
+└── .gitignore                    # Ignore large/binary and local caches
+```
 
 ## 📊 Data Overview
 
@@ -213,14 +238,29 @@ Overall means:
 | Sat_Career | Satisfaction with career development |
 
 ---
+
+#### 📊 Sample Data (Extract)
+
+A preview of representative dataset rows:
+
+| Employee_ID | Gender | Age | Department | Education Level | Salary (€) | Sat_Management | Sat_Coworkers | Sat_Environment | Sat_Salary |
+|-------------|--------|-----|------------|------------------|-------------|----------------|----------------|------------------|------------|
+| 1 | Female | 43 | Logistics | Bachelor | 3100 | 2 | 4 | 3 | 2 |
+| 2 | Male | 29 | Sales | Master | 4500 | 3 | 5 | 4 | 3 |
+| 3 | Female | 51 | Laboratory | Doctor | 5200 | 4 | 4 | 4 | 3 |
+| 4 | Other | 35 | Logistics | Secondary | 2400 | 1 | 3 | 2 | 1 |
+| 5 | Female | 38 | Sales | Bachelor | 3900 | 2 | 4 | 4 | 2 |
+
+---
+
 ![Satisfaction](/img/Satisfaction_1.png)
 
 ## 📊 Key Insights
 
 ### What Works Well ✅
 
-- **Strong co-worker relationships** across all departments
-- **Company benefits** are positively perceived
+- **Strong co-worker relationships** across all departments (**62.8% rated 4–5**)  
+- **Company benefits** are positively perceived (**49.8% rated 4–5**)
 - Education aligns well with role complexity
 
 ### Critical Risks ⚠️
@@ -260,3 +300,80 @@ Overall means:
 These actions support **employee engagement, retention, and organizational performance**.
 
 ---
+
+
+## Figures Overview
+
+- **Figure 1:** Department Distribution  
+  → Logistics is the largest department, indicating operational workforce dominance.
+
+- **Figure 2:** Education by Department  
+  → Laboratory and Sales show higher academic concentration than Logistics.
+
+- **Figure 3:** Salary by Department and Education  
+  → Higher education consistently correlates with higher salaries across all departments.
+
+- **Figure 4:** Age Distribution Across Departments  
+  → Workforce is generally mature, especially in Logistics and Sales.
+
+- **Figure 5:** Overall Satisfaction Averages  
+  → Management and salary receive the lowest satisfaction scores.
+
+- **Figure 6:** Satisfaction by Department  
+  → Sales outperforms Logistics in work environment satisfaction.
+
+- **Figure 7:** Satisfaction by Age Category  
+  → Younger employees value career development; older employees value task fit.
+
+- **Figure 8:** Satisfaction by Salary Category  
+  → Higher salary improves environment satisfaction but not management satisfaction.
+
+- **Figure 9:** Satisfaction by Gender  
+  → Salary satisfaction shows the greatest gender-based disparity.
+
+- **Figure 10:** Satisfaction by Education Level  
+  → Higher education aligns with better task, benefit, and career satisfaction.
+
+---
+
+## 🛠 Usage
+
+Follow these steps to make the most of the report and dashboard:
+
+1. **Open the PDFs**:
+   - `Data survey analysis.pdf` → For full tables, charts, and detailed interpretations.
+   - `Data survey.pdf` → [For quick visual summaries and comparisons](./reports/Data%20survey.pdf).
+
+2. **Interpret Key Metrics**:
+   - Focus on satisfaction scores (1–5 scale) to identify priority areas.
+   - Use demographic tables to understand workforce composition.
+
+3. **Apply Insights**:
+   - Share the **Executive Summary** with leadership for strategic decisions.
+   - Use department-level charts to plan targeted interventions.
+   - Monitor progress using quarterly pulse surveys aligned with baseline data.
+
+4. **Integrate into Workflow**:
+   - Include recommendations in HR and management planning.
+   - Use salary and education insights for compensation and training strategies.
+
+> Tip: For presentations, extract Figures 6–10 from the analysis PDF and embed them in slides.
+
+## 📦 Reuse & Attribution
+
+If you reuse charts or tables, please cite **Femi Oyinloye, “Management Report: Employee Demographics, Satisfaction Trends, and Actionable Insights,” December 2025** and link to the PDFs in this repository.
+
+## 🛠️ Skills Demonstrated
+
+- HR & People Analytics
+- Survey data analysis
+- Data storytelling for stakeholders
+- Business-focused reporting
+- Visualization-driven insight generation
+
+---
+
+## 👤 Author
+
+**Femi Oyinloye**  
+FullStack Developer | Data Analysis | Business Insights  
