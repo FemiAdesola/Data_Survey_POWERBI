@@ -59,7 +59,9 @@ DATA_SURVEY_POWERBI/
 ├── reports/
 │   ├── Data survey analysis.pdf  # Management report
 │   ├── Data survey analysis.docx # Editable report
-│   └── Data survey.pdf           # Alternate/short report
+│   ├── Data survey.pdf           # Alternate/short report
+│   ├── Oyinloye Femi Data-driven Decision Making For data survey.docx
+│   └── Power_BI_Report.md        # The actual report format
 │    
 ├── README.md                     # Project overview, usage, and links
 └── .gitignore                    # Ignore large/binary and local caches
